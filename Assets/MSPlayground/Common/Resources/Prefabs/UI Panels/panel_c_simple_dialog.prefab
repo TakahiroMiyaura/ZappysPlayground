@@ -115,7 +115,7 @@ PrefabInstance:
     - target: {fileID: 2665480013769861289, guid: d5c6db9fe2297bf438a13008460cc8de, type: 3}
       propertyPath: m_Material
       value: 
-      objectReference: {fileID: 2100000, guid: 77983740959935249a12fa7535b3327b, type: 2}
+      objectReference: {fileID: 2100000, guid: a522d7149601c2642b1b5daf4fd94c40, type: 2}
     - target: {fileID: 2665480013769861289, guid: d5c6db9fe2297bf438a13008460cc8de, type: 3}
       propertyPath: m_OnCullStateChanged.m_PersistentCalls.m_Calls.Array.size
       value: 0
@@ -270,7 +270,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7098785313669153260, guid: d5c6db9fe2297bf438a13008460cc8de, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -2
+      value: -0.9
       objectReference: {fileID: 0}
     - target: {fileID: 7098785313669153263, guid: d5c6db9fe2297bf438a13008460cc8de, type: 3}
       propertyPath: m_IsActive
@@ -350,11 +350,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8551681298796484787, guid: d5c6db9fe2297bf438a13008460cc8de, type: 3}
       propertyPath: m_Size.x
-      value: 191
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 8551681298796484787, guid: d5c6db9fe2297bf438a13008460cc8de, type: 3}
       propertyPath: m_Size.y
-      value: 66
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 8795818724812878326, guid: d5c6db9fe2297bf438a13008460cc8de, type: 3}
       propertyPath: m_text
@@ -461,7 +461,7 @@ PrefabInstance:
     - target: {fileID: 2665480013769861289, guid: d5c6db9fe2297bf438a13008460cc8de, type: 3}
       propertyPath: m_Material
       value: 
-      objectReference: {fileID: 2100000, guid: 77983740959935249a12fa7535b3327b, type: 2}
+      objectReference: {fileID: 2100000, guid: a522d7149601c2642b1b5daf4fd94c40, type: 2}
     - target: {fileID: 2665480013769861289, guid: d5c6db9fe2297bf438a13008460cc8de, type: 3}
       propertyPath: m_OnCullStateChanged.m_PersistentCalls.m_Calls.Array.size
       value: 0
@@ -696,11 +696,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8551681298796484787, guid: d5c6db9fe2297bf438a13008460cc8de, type: 3}
       propertyPath: m_Size.x
-      value: 191
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 8551681298796484787, guid: d5c6db9fe2297bf438a13008460cc8de, type: 3}
       propertyPath: m_Size.y
-      value: 66
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 8795818724812878326, guid: d5c6db9fe2297bf438a13008460cc8de, type: 3}
       propertyPath: m_text
@@ -1080,6 +1080,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dataSourceTypes: []
   ignoreKeyPathPrefix: 0
+  includeInactiveComponentsInChildren: 0
+  isFixedHierarchyWillUseCachedValues: 1
+  autoAttachAndDetach: 1
   dataBindingProfiles:
   - dataKeyPath: ButtonColor_Yes
     themeKeyPath: 
@@ -1118,6 +1121,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dataSourceTypes: []
   ignoreKeyPathPrefix: 0
+  includeInactiveComponentsInChildren: 0
+  isFixedHierarchyWillUseCachedValues: 1
+  autoAttachAndDetach: 1
   dataBindingProfiles:
   - dataKeyPath: ButtonColor_No
     themeKeyPath: 
@@ -1142,6 +1148,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dataSourceTypes: []
   ignoreKeyPathPrefix: 0
+  includeInactiveComponentsInChildren: 0
+  isFixedHierarchyWillUseCachedValues: 1
+  autoAttachAndDetach: 1
   _manageChildren: 1
 --- !u!114 &8808319066731644373
 MonoBehaviour:

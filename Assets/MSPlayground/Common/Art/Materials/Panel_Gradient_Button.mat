@@ -8,8 +8,10 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Panel_Gradient_Button
-  m_Shader: {fileID: 4800000, guid: 29b058829dc4dbf449bc59c038dfa631, type: 3}
-  m_ShaderKeywords: _GRADIENT_DISABLED_ _IRIDESCENCE_ENABLE_ _REFLECTED__ON
+  m_Shader: {fileID: 4800000, guid: 5b0fc3431208c9e48b6e5efc383317ed, type: 3}
+  m_ShaderKeywords: _DECAL_FRONT_ONLY__ON _GRADIENT_DISABLED_ _IRIDESCENCE_ENABLE_
+    _REFLECTED__ON _RELATIVE_TO_HEIGHT__ON _SKY_ENABLED_ _USE_GLOBAL_LEFT_INDEX__ON
+    _USE_GLOBAL_RIGHT_INDEX__ON
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -19,7 +21,15 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - _Blob_Texture_:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Decal_:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -36,6 +46,14 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Indirect_Environment_:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Iridescence_Texture_:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -63,61 +81,144 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _Reflection_Map_:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     m_Floats:
     - _Angle_: -45
+    - _Bevel_Radius_: 0.05
+    - _Bias_: 0.5
+    - _Blend_Exponent_: 1
+    - _Blob_Enable_: 0
+    - _Blob_Enable_2_: 0
+    - _Blob_Fade_: 1
+    - _Blob_Fade_2_: 1
+    - _Blob_Fade_Length_: 0.08
+    - _Blob_Far_Distance_: 0.08
+    - _Blob_Far_Size_: 0.05
+    - _Blob_Inner_Fade_: 0.01
+    - _Blob_Inner_Fade_2_: 0.1
+    - _Blob_Intensity_: 0.34
+    - _Blob_Near_Distance_: 0
+    - _Blob_Near_Size_: 0.025
+    - _Blob_Near_Size_2_: 0.025
+    - _Blob_Pulse_: 0
+    - _Blob_Pulse_2_: 0
+    - _Blob_Pulse_Max_Size_: 0.05
     - _BumpScale: 1
     - _Cutoff: 0.5
+    - _Decal_Enable_: 0
+    - _Decal_Front_Only_: 1
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
     - _Edge_Only_: 0
     - _Edge_Power_: 2
+    - _Edge_Reflect_: 1
     - _Edge_Width_: 0.5
     - _Fade_Out_: 1
+    - _Falloff_: 1
     - _Filter_Width_: 1
+    - _Fixed_Radius_: 0
+    - _Fixed_Unit_Multiplier_: 1000
     - _Frequency_: 1
+    - _Fresnel_Disabled_: 0
+    - _Front_Reflect_: 0
+    - _Gaze_Focus_: 0
+    - _Gaze_Intensity_: 0.7
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
+    - _Glow_Falloff_: 2
+    - _Glow_Fraction_: 0.5
+    - _Glow_Max_: 0.5
     - _Gradient_Disabled_: 1
     - _GridScale: 0.02
     - _Highlight_: 0
     - _Highlight_Width_: 0.25
+    - _Horizon_Power_: 1
+    - _Indirect_Diffuse_: 0.51
+    - _Intensity_Fade_In_Exponent_: 2
     - _Iridescence_Edge_Intensity_: 1
     - _Iridescence_Enable_: 1
+    - _Iridescence_Enabled_: 0
     - _Iridescence_Intensity_: 0
     - _Line_Disabled_: 0
     - _Line_Gradient_Blend_: 0.36
     - _Line_Width_: 1
+    - _Mapped_Environment_Enabled_: 0
+    - _Max_Intensity_: 0.5
     - _Metallic: 0
     - _Mode: 0
+    - _Motion_: 1
+    - _Occluded_Intensity_: 1
     - _OcclusionStrength: 1
+    - _Orthographic_Distance_: 400
+    - _Outer_Fuzz_End_: 0.001
+    - _Outer_Fuzz_Start_: 0.002
     - _Parallax: 0.02
+    - _Pinched_: 0
+    - _Power_: 1
+    - _Proximity_Anisotropy_: 1
+    - _Proximity_Far_Distance_: 0.16
+    - _Proximity_Max_Intensity_: 0.45
+    - _Proximity_Near_Radius_: 0.03
+    - _Radius_: 0.5
     - _Rate_: 0
     - _Reflected_: 1
+    - _Reflection_: 0
+    - _Relative_To_Height_: 1
+    - _Selected_: 0
+    - _Selected_Distance_: 0.08
+    - _Selected_Fade_Length_: 0.08
+    - _Selection_Fade_: 0
+    - _Selection_Fade_Size_: 0.3
+    - _Selection_Fuzz_: 0.5
+    - _Sharpness_: 0
+    - _Shininess_: 10
+    - _Sky_Enabled_: 1
+    - _Smooth_Edges_: 0
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
+    - _Specular_: 0
     - _SrcBlend: 1
     - _StencilComparison: 0
     - _StencilOperation: 0
     - _StencilReference: 0
+    - _Subsurface_: 0
+    - _Sun_Intensity_: 0.75
+    - _Sun_Phi_: 0.48
+    - _Sun_Theta_: 0.73
     - _UVSec: 0
+    - _Use_Global_Left_Index_: 1
+    - _Use_Global_Right_Index_: 1
     - _Vertical_Offset_: 0
     - _ZTest: 4
     - _ZWrite: 1
     m_Colors:
+    - _Albedo_: {r: 1, g: 1, b: 1, a: 1}
     - _Base_Color_: {r: 1, g: 1, b: 1, a: 1}
+    - _Blob_Position_: {r: 0.5, g: 0, b: 0.2, a: 1}
+    - _Blob_Position_2_: {r: 0, g: 0, b: 0, a: 1}
     - _Bottom_Left_: {r: 0.20784315, g: 0.29411766, b: 0.6509804, a: 1}
     - _Bottom_Right_: {r: 0.15294118, g: 0.24313727, b: 0.6117647, a: 1}
     - _ClipRect: {r: -32767, g: -32767, b: 32767, a: 32767}
     - _ClipRectRadii: {r: 10, g: 10, b: 10, a: 10}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Color_: {r: 1, g: 1, b: 1, a: 1}
+    - _Decal_Scale_XY_: {r: 1.5, g: 1.5, b: 0, a: 0}
+    - _Edge_Color_: {r: 0.53, g: 0.53, b: 0.53, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _Gradient_Color_: {r: 1, g: 1, b: 1, a: 1}
+    - _Ground_Color_: {r: 0.603922, g: 0.611765, b: 0.764706, a: 1}
     - _Highlight_Color_: {r: 0.98, g: 0.98, b: 0.98, a: 1}
     - _Highlight_Transform_: {r: 1, g: 1, b: 0, a: 0}
+    - _Horizon_Color_: {r: 0.843137, g: 0.87451, b: 1, a: 1}
+    - _Inner_Color_: {r: 1, g: 1, b: 1, a: 1}
     - _Iridescence_Tint_: {r: 1, g: 1, b: 1, a: 1}
     - _Line_Color_: {r: 1, g: 1, b: 1, a: 1}
     - _OccludedColor: {r: 0, g: 0.5, b: 1, a: 1}
+    - _Sky_Color_: {r: 0.866667, g: 0.917647, b: 1, a: 1}
     - _Top_Left_: {r: 0.3647059, g: 0.5058824, b: 0.69411767, a: 1}
     - _Top_Right_: {r: 0.1533019, g: 0.24284104, b: 0.6132076, a: 1}
   m_BuildTextureStacks: []
